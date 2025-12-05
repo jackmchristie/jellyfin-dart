@@ -28,7 +28,7 @@ class PlayMessage {
     this.messageType = SessionMessageType.play,
   });
 
-  /// Gets or sets the data.
+  /// Class PlayRequest.
   @JsonKey(name: r'Data', required: false, includeIfNull: false)
   final PlayRequest? data;
 

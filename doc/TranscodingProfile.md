@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 **type** | [**DlnaProfileType**](DlnaProfileType.md) | Gets or sets the DLNA profile type. | [optional] 
 **videoCodec** | **String** | Gets or sets the video codec. | [optional] 
 **audioCodec** | **String** | Gets or sets the audio codec. | [optional] 
-**protocol** | [**MediaStreamProtocol**](MediaStreamProtocol.md) | Media streaming protocol.  Lowercase for backwards compatibility. | [optional] 
+**protocol** | [**MediaStreamProtocol**](MediaStreamProtocol.md) | Gets or sets the protocol. | [optional] 
 **estimateContentLength** | **bool** | Gets or sets a value indicating whether the content length should be estimated. | [optional] [default to false]
 **enableMpegtsM2TsMode** | **bool** | Gets or sets a value indicating whether M2TS mode is enabled. | [optional] [default to false]
 **transcodeSeekInfo** | [**TranscodeSeekInfo**](TranscodeSeekInfo.md) | Gets or sets the transcoding seek info mode. | [optional] [default to 'Auto']

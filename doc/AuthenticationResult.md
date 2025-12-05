@@ -8,8 +8,8 @@ import 'package:jellyfin_dart/api.dart';
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**user** | [**UserDto**](UserDto.md) | Gets or sets the user. | [optional] 
-**sessionInfo** | [**SessionInfoDto**](SessionInfoDto.md) | Gets or sets the session info. | [optional] 
+**user** | [**UserDto**](UserDto.md) | Class UserDto. | [optional] 
+**sessionInfo** | [**SessionInfoDto**](SessionInfoDto.md) | Session info DTO. | [optional] 
 **accessToken** | **String** | Gets or sets the access token. | [optional] 
 **serverId** | **String** | Gets or sets the server id. | [optional] 
 

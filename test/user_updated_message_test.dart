@@ -7,7 +7,7 @@ void main() {
   // TODO add properties to the entity
 
   group(UserUpdatedMessage, () {
-    // Gets or sets the data.
+    // Class UserDto.
     // UserDto data
     test('to test the property `data`', () async {
       // TODO

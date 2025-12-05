@@ -31,7 +31,7 @@ void main() {
       // TODO
     });
 
-    // Media streaming protocol.  Lowercase for backwards compatibility.
+    // Gets or sets the protocol.
     // MediaStreamProtocol protocol
     test('to test the property `protocol`', () async {
       // TODO

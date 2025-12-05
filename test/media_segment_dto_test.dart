@@ -19,7 +19,7 @@ void main() {
       // TODO
     });
 
-    // Defines the types of content an individual Jellyfin.Database.Implementations.Entities.MediaSegment represents.
+    // Gets or sets the type of content this segment defines.
     // MediaSegmentType type (default value: 'Unknown')
     test('to test the property `type`', () async {
       // TODO

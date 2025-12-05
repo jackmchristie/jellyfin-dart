@@ -28,7 +28,7 @@ class PluginInstallingMessage {
     this.messageType = SessionMessageType.packageInstalling,
   });
 
-  /// Gets or sets the data.
+  /// Class InstallationInfo.
   @JsonKey(name: r'Data', required: false, includeIfNull: false)
   final InstallationInfo? data;
 

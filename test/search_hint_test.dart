@@ -79,7 +79,7 @@ void main() {
       // TODO
     });
 
-    // The base item kind.
+    // Gets or sets the type.
     // BaseItemKind type
     test('to test the property `type`', () async {
       // TODO
@@ -97,7 +97,7 @@ void main() {
       // TODO
     });
 
-    // Media types.
+    // Gets or sets the type of the media.
     // MediaType mediaType (default value: 'Unknown')
     test('to test the property `mediaType`', () async {
       // TODO

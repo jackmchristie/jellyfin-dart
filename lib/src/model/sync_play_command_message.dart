@@ -28,7 +28,7 @@ class SyncPlayCommandMessage {
     this.messageType = SessionMessageType.syncPlayCommand,
   });
 
-  /// Gets or sets the data.
+  /// Class SendCommand.
   @JsonKey(name: r'Data', required: false, includeIfNull: false)
   final SendCommand? data;
 

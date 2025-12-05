@@ -28,7 +28,7 @@ class PluginUninstalledMessage {
     this.messageType = SessionMessageType.packageUninstalled,
   });
 
-  /// Gets or sets the data.
+  /// This is a serializable stub class that is used by the api to provide information about installed plugins.
   @JsonKey(name: r'Data', required: false, includeIfNull: false)
   final PluginInfo? data;
 

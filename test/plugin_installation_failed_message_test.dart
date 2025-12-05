@@ -8,7 +8,7 @@ void main() {
   // TODO add properties to the entity
 
   group(PluginInstallationFailedMessage, () {
-    // Gets or sets the data.
+    // Class InstallationInfo.
     // InstallationInfo data
     test('to test the property `data`', () async {
       // TODO

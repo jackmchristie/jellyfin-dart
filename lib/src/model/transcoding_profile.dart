@@ -75,7 +75,7 @@ class TranscodingProfile {
   @JsonKey(name: r'AudioCodec', required: false, includeIfNull: false)
   final String? audioCodec;
 
-  /// Media streaming protocol.  Lowercase for backwards compatibility.
+  /// Gets or sets the protocol.
   @JsonKey(name: r'Protocol', required: false, includeIfNull: false)
   final MediaStreamProtocol? protocol;
 

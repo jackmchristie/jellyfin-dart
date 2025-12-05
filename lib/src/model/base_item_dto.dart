@@ -576,7 +576,7 @@ class BaseItemDto {
   @JsonKey(name: r'ParentId', required: false, includeIfNull: false)
   final String? parentId;
 
-  /// The base item kind.
+  /// Gets or sets the type.
   @JsonKey(name: r'Type', required: false, includeIfNull: false)
   final BaseItemKind? type;
 
@@ -805,7 +805,7 @@ class BaseItemDto {
   @JsonKey(name: r'IsoType', required: false, includeIfNull: false)
   final IsoType? isoType;
 
-  /// Media types.
+  /// Gets or sets the type of the media.
   @JsonKey(
     defaultValue: MediaType.unknown,
     name: r'MediaType',

@@ -8,7 +8,7 @@ void main() {
   // TODO add properties to the entity
 
   group(SyncPlayCommandMessage, () {
-    // Gets or sets the data.
+    // Class SendCommand.
     // SendCommand data
     test('to test the property `data`', () async {
       // TODO

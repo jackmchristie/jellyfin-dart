@@ -30,11 +30,11 @@ class AuthenticationResult {
     this.serverId,
   });
 
-  /// Gets or sets the user.
+  /// Class UserDto.
   @JsonKey(name: r'User', required: false, includeIfNull: false)
   final UserDto? user;
 
-  /// Gets or sets the session info.
+  /// Session info DTO.
   @JsonKey(name: r'SessionInfo', required: false, includeIfNull: false)
   final SessionInfoDto? sessionInfo;
 

@@ -28,7 +28,7 @@ class UserDataChangedMessage {
     this.messageType = SessionMessageType.userDataChanged,
   });
 
-  /// Gets or sets the data.
+  /// Class UserDataChangeInfo.
   @JsonKey(name: r'Data', required: false, includeIfNull: false)
   final UserDataChangeInfo? data;
 

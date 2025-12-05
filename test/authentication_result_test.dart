@@ -7,13 +7,13 @@ void main() {
   // TODO add properties to the entity
 
   group(AuthenticationResult, () {
-    // Gets or sets the user.
+    // Class UserDto.
     // UserDto user
     test('to test the property `user`', () async {
       // TODO
     });
 
-    // Gets or sets the session info.
+    // Session info DTO.
     // SessionInfoDto sessionInfo
     test('to test the property `sessionInfo`', () async {
       // TODO

@@ -28,7 +28,7 @@ class LibraryChangedMessage {
     this.messageType = SessionMessageType.libraryChanged,
   });
 
-  /// Gets or sets the data.
+  /// Class LibraryUpdateInfo.
   @JsonKey(name: r'Data', required: false, includeIfNull: false)
   final LibraryUpdateInfo? data;
 

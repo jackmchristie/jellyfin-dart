@@ -46,7 +46,7 @@ class BaseItemPerson {
   @JsonKey(name: r'Role', required: false, includeIfNull: false)
   final String? role;
 
-  /// The person kind.
+  /// Gets or sets the type.
   @JsonKey(
     defaultValue: PersonKind.unknown,
     name: r'Type',

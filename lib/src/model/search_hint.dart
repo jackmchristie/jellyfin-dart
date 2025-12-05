@@ -129,7 +129,7 @@ class SearchHint {
   @JsonKey(name: r'BackdropImageItemId', required: false, includeIfNull: false)
   final String? backdropImageItemId;
 
-  /// The base item kind.
+  /// Gets or sets the type.
   @JsonKey(name: r'Type', required: false, includeIfNull: false)
   final BaseItemKind? type;
 
@@ -141,7 +141,7 @@ class SearchHint {
   @JsonKey(name: r'RunTimeTicks', required: false, includeIfNull: false)
   final int? runTimeTicks;
 
-  /// Media types.
+  /// Gets or sets the type of the media.
   @JsonKey(
     defaultValue: MediaType.unknown,
     name: r'MediaType',

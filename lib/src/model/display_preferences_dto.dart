@@ -82,7 +82,7 @@ class DisplayPreferencesDto {
   @JsonKey(name: r'CustomPrefs', required: false, includeIfNull: false)
   final Map<String, String>? customPrefs;
 
-  /// An enum representing the axis that should be scrolled.
+  /// Gets or sets the scroll direction.
   @JsonKey(name: r'ScrollDirection', required: false, includeIfNull: false)
   final ScrollDirection? scrollDirection;
 
@@ -94,7 +94,7 @@ class DisplayPreferencesDto {
   @JsonKey(name: r'RememberSorting', required: false, includeIfNull: false)
   final bool? rememberSorting;
 
-  /// An enum representing the sorting order.
+  /// Gets or sets the sort order.
   @JsonKey(name: r'SortOrder', required: false, includeIfNull: false)
   final SortOrder? sortOrder;
 

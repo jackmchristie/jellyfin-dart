@@ -240,7 +240,7 @@ class MediaStream {
   @JsonKey(name: r'Hdr10PlusPresentFlag', required: false, includeIfNull: false)
   final bool? hdr10PlusPresentFlag;
 
-  /// An enum representing video ranges.
+  /// Gets the video range.
   @JsonKey(
     defaultValue: VideoRange.unknown,
     name: r'VideoRange',
@@ -249,7 +249,7 @@ class MediaStream {
   )
   final VideoRange? videoRange;
 
-  /// An enum representing types of video ranges.
+  /// Gets the video range type.
   @JsonKey(
     defaultValue: VideoRangeType.unknown,
     name: r'VideoRangeType',
@@ -262,7 +262,7 @@ class MediaStream {
   @JsonKey(name: r'VideoDoViTitle', required: false, includeIfNull: false)
   final String? videoDoViTitle;
 
-  /// An enum representing formats of spatial audio.
+  /// Gets the audio spatial format.
   @JsonKey(
     defaultValue: AudioSpatialFormat.none,
     name: r'AudioSpatialFormat',

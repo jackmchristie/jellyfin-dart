@@ -39,7 +39,7 @@ class MediaSegmentDto {
   @JsonKey(name: r'ItemId', required: false, includeIfNull: false)
   final String? itemId;
 
-  /// Defines the types of content an individual Jellyfin.Database.Implementations.Entities.MediaSegment represents.
+  /// Gets or sets the type of content this segment defines.
   @JsonKey(
     defaultValue: MediaSegmentType.unknown,
     name: r'Type',

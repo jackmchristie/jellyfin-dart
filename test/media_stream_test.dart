@@ -132,13 +132,13 @@ void main() {
       // TODO
     });
 
-    // An enum representing video ranges.
+    // Gets the video range.
     // VideoRange videoRange (default value: 'Unknown')
     test('to test the property `videoRange`', () async {
       // TODO
     });
 
-    // An enum representing types of video ranges.
+    // Gets the video range type.
     // VideoRangeType videoRangeType (default value: 'Unknown')
     test('to test the property `videoRangeType`', () async {
       // TODO
@@ -150,7 +150,7 @@ void main() {
       // TODO
     });
 
-    // An enum representing formats of spatial audio.
+    // Gets the audio spatial format.
     // AudioSpatialFormat audioSpatialFormat (default value: 'None')
     test('to test the property `audioSpatialFormat`', () async {
       // TODO

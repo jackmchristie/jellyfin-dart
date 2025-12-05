@@ -28,7 +28,7 @@ class UserUpdatedMessage {
     this.messageType = SessionMessageType.userUpdated,
   });
 
-  /// Gets or sets the data.
+  /// Class UserDto.
   @JsonKey(name: r'Data', required: false, includeIfNull: false)
   final UserDto? data;
 

@@ -335,7 +335,7 @@ class UserPolicy {
   )
   final String passwordResetProviderId;
 
-  /// Enum SyncPlayUserAccessType.
+  /// Gets or sets a value indicating what SyncPlay features the user can access.
   @JsonKey(name: r'SyncPlayAccess', required: false, includeIfNull: false)
   final SyncPlayUserAccessType? syncPlayAccess;
 

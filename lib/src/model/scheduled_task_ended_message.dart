@@ -28,7 +28,7 @@ class ScheduledTaskEndedMessage {
     this.messageType = SessionMessageType.scheduledTaskEnded,
   });
 
-  /// Gets or sets the data.
+  /// Class TaskExecutionInfo.
   @JsonKey(name: r'Data', required: false, includeIfNull: false)
   final TaskResult? data;
 
